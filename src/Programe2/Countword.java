@@ -1,8 +1,9 @@
 package Programe2;
 
 public class Countword {
-public static void main(String[]args){
-	String s="how are you my friend";
+
+	public static void main(String[] args) {
+	String s="how are you santhos";
 	int count=1;
 	for(int i=0;i<=s.length()-1;i++){
 		if(s.charAt(i)==' '&&s.charAt(i+1)!=' '){
@@ -11,5 +12,7 @@ public static void main(String[]args){
 		}
 	}
 	System.out.println(count);
-}
+
+	}
+
 }
